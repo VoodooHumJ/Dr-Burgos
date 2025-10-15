@@ -2524,13 +2524,7 @@ html.no-csstransitions .hero-content {
   .hero-content h1 {
     font-weight: 600;
     font-size: 5rem;
-    line-height: 1.263;
-    letter-spacing: 0;
-    color: #ffffff;
-    margin-top: 0;
-    margin-right: 350px;
-    padding-top: 3.2rem;
-    position: relative;
+    
 }
 
 }
