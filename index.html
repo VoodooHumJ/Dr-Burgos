@@ -5,7 +5,7 @@
     <!--- basic page needs
     ================================================== -->
     <meta charset="utf-8">
-    <title>Dr. Liders Burgos - Médico Radiólogo Sub especialista en Resonancia Magnética Corporal e Intervencionismo</title>
+    <title>Dr. Liders Burgos Z - Médico Radiólogo, Especialista en Resonancia Magnética Corporal e Intervencionismo</title>
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -57,9 +57,9 @@
         <nav class="header-nav-wrap">
             <ul class="header-nav">
                 <li class="current"><a href="index.html" title="Home">Inicio</a></li>
-                <li><a href="" title="About">Acerca del Dr. L. Burgos Z.</a></li>
-                <li><a href="" title="Services">Servicios</a></li>
-                <li><a href="" title="Contact us">Contacto</a></li>	
+                <li><a href="about.html" title="About">Acerca del Dr. Burgos</a></li>
+                <li><a href="servicios.html" title="Servicios">Servicios</a></li>
+                <li><a href="contacto.html" title="Contacto">Contacto</a></li>	
             </ul>
         </nav>
 
@@ -70,7 +70,7 @@
 
     <!-- hero
     ================================================== -->
-    <section class="s-hero" data-image-src="images/hero-bg-3001.png">
+    <section class="s-hero" data-parallax="scroll" data-image-src="images/hero-bg-3001.png" data-speed="0.3">
 
         <div class="hero-left-bar"></div>
 
@@ -78,14 +78,15 @@
 
             <div class="column large-full hero-content__text">
                 <h1>
-                    Precisión diagnóstica <br>
+                    Precisión<br>
+                    diagnóstica<br>
                     en Resonancia Magnética e<br>
                     Intervencionismo
                 </h1>
 
                 <div class="hero-content__buttons">
                     <a href="" class="btn btn--stroke">Servicios</a>
-                    <a href="https://wa.me/59167064624" class="btn btn--stroke">Agendar cita</a>
+                    <a href="" class="btn btn--stroke">Agendar cita</a>
                 </div>
             </div> <!-- end hero-content__text -->
 
@@ -106,7 +107,7 @@
 
         <div class="hero-scroll">
             <a href="#about" class="scroll-link smoothscroll">
-                Acerca del Dr. L. Burgos Z.
+            
             </a>
         </div> <!-- end hero-scroll -->
 
@@ -115,22 +116,23 @@
 
     <!-- about
     ================================================== -->
-    <section id="about" class="s-about">
+    
+        <section id="about" class="s-about">
 
-        <div class="row row-y-center about-content">
+            <div class="row row-y-center about-content">
 
-            <div class="column large-half medium-full">
-                <h3 class="subhead">Dr. Liders Burgos Z.</h3>
-                <p class="lead">
-                Soy el Dr. Liders Burgos Z., Médico Radiólogo con especialidad en 
-                Resonancia Magnética Corporal e Intervencionismo guiado por imagen.
-                Me dedico a ofrecer un diagnóstico preciso y procedimientos mínimamente 
-                invasivos que aporten soluciones efectivas y seguras para mis pacientes.
-                </p>
-                <a href="about.html" class="btn btn--primary btn--about">Leer más</a>
-            </div>
+                <div class="column large-half medium-full">
+                    <h3 class="subhead"></h3>
+                    <p class="lead">
+                    Soy el Dr. Liders Burgos Z., Médico Radiólogo con especialidad en 
+                    Resonancia Magnética Corporal e Intervencionismo guiado por imagen.
+                    Me dedico a ofrecer un diagnóstico preciso y procedimientos
+                    mínimamente invasivos que aporten soluciones efectivas y seguras para mis pacientes.
+                    </p>
+                    <a href="about.html" class="btn btn--primary btn--about">Leer más</a>
+                </div>
 
-            <div class="column large-half medium-full">
+                <div class="column large-half medium-full">
                 <ul class="about-sched">
                     <li>
                         <h4>Precisión diagnóstica.</h4>
@@ -165,12 +167,12 @@
 
         </div> <!-- end about-content -->
 
-    </section> <!-- end s-about -->
+            </div> <!-- end about-content -->
 
+        </section> <!-- end s-about -->
 
     
-
-   
+    
 
 
     <!-- Java Script
@@ -178,20 +180,8 @@
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
-    <script>
-    // Aumenta la suavidad sin afectar la velocidad
-    const scrollSmoother = () => {
-        let scrollTimeout;
-        window.addEventListener('wheel', () => {
-        if (scrollTimeout) clearTimeout(scrollTimeout);
-        document.documentElement.style.scrollBehavior = 'smooth';
-        scrollTimeout = setTimeout(() => {
-            document.documentElement.style.scrollBehavior = 'auto';
-        }, 300);
-        });
-    };
-    scrollSmoother();
-    </script>
 
-
+    <!-- Justo antes de cerrar el body -->
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.5.0/parallax.min.js"></script>
+    
 </body>
