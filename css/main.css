@@ -2037,7 +2037,7 @@ input::-moz-focus-inner {
 
   .header-logo img {
     width: 100px;
-    height: 83px;
+    height: 41.5px;
   }
 
 
@@ -2512,6 +2512,10 @@ html.no-csstransitions .hero-content {
 @media screen and (max-width:500px) {
   .hero-content {
     width: 86%;
+  }
+
+  .hero-content h1 {
+    font-size: 3rem;
   }
 
   .hero-scroll {
