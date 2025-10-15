@@ -2036,8 +2036,9 @@ input::-moz-focus-inner {
   }
 
   .header-logo img {
-  width: 100px;
-  height: 41.5px;
+    width: 100px;
+    height: 83px;
+  }
 
 
 
@@ -2520,12 +2521,6 @@ html.no-csstransitions .hero-content {
     left: 0;
     bottom: 6.4rem;
   }
-  
-  .hero-content h1 {
-    font-weight: 600;
-    font-size: 3rem;
-    
-}
 
 }
 
@@ -2556,8 +2551,8 @@ html.no-csstransitions .hero-content {
   display: block;
   width: 100%;
   margin-right: 0;
-  background-color: #5e3b7f;
-  border-color: #5e3b7f;
+  background-color: #21070a;
+  border-color: #21070a;
 }
 
 /* ------------------------------------------------------------------- 
