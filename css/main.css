@@ -2035,6 +2035,12 @@ input::-moz-focus-inner {
     left: 4.8rem;
   }
 
+  .header-logo img {
+  width: 100px;
+  height: 41.5px;
+
+
+
   .header-logo::before {
     width: 3.6rem;
     left: -4.8rem;
@@ -2514,6 +2520,18 @@ html.no-csstransitions .hero-content {
     left: 0;
     bottom: 6.4rem;
   }
+  
+  .hero-content h1 {
+    font-weight: 600;
+    font-size: 5rem;
+    line-height: 1.263;
+    letter-spacing: 0;
+    color: #ffffff;
+    margin-top: 0;
+    margin-right: 350px;
+    padding-top: 3.2rem;
+    position: relative;
+}
 
 }
 
